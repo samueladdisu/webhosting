@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="./css/main.css" rel="stylesheet">
+   <title>UI Design</title>
+</head>
+
+<body>
+   <div class="container">
+      <header>
+         <img src="./img/logo.svg" class="logo" alt="">
+
+         <nav>
+
+            <a href="#" class="hide-desktop">
+               <img src="./img/menu.svg" alt="" class="menu" id="menu">
+            </a>
+
+            <ul class="show-desktop hide-mobile" id="nav">
+
+               <li class="exit-btn hide-desktop" id="exit"><img src="./img/close-white.svg"
+                     class="exit-btn hide-desktop" alt=""></li>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Service</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <section>
+         <img src="./img/Server.svg" class="server" alt="">
+
+         <h1>Web Host for the Modern Era</h1>
+         <p class="subhead">Go serverless and pay for what you use</p>
+         
+            <img src="./img/scroll.svg" class="scroll hide-mobile show-desktop" alt="">
+         
+      </section>
+   </div>
+
+   <div class="blue-container">
+      <div class="container">
+         <ul>
+            <li>
+               <img src="./img/icon-1.svg" alt="">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nam veritatis consequuntur possimus
+                  corporis tenetur minus eius explicabo saepe, </p>
+            </li>
+            <li>
+               <img src="./img/icon-2.svg" alt="">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nam veritatis consequuntur possimus
+                  corporis tenetur minus eius explicabo saepe, </p>
+            </li>
+            <li>
+               <img src="./img/icon-3.svg" alt="">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nam veritatis consequuntur possimus
+                  corporis tenetur minus eius explicabo saepe,</p>
+            </li>
+         </ul>
+      </div>
+   </div>
+
+
+   <div class="gray-container">
+      <div class="container">
+         <ul>
+            <li>
+               <figure>
+                  <img src="./img/john.png" alt="">
+                  <blockquote>
+                     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel quisquam voluptatibus ipsam! Odio ex
+                     eum rem doloribus porro nobis"
+                  </blockquote>
+                  <figcaption>~ John Doe</figcaption>
+               </figure>
+            </li>
+            <li>
+               <figure>
+                  <img src="./img/jane.png" alt="">
+                  <blockquote>
+                     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel quisquam voluptatibus ipsam! Odio ex
+                     eum rem doloribus porro nobis"
+                  </blockquote>
+                  <figcaption>~ Jane Doe</figcaption>
+               </figure>
+            </li>
+         </ul>
+      </div>
+   </div>
+
+   <div class="container">
+      <h2>Start your free trial now!</h2>
+      <a href="#" class="cta">Get Started </a>
+   </div>
+
+   <footer>
+      <div class="footer-container">
+         <div class="container">
+            <a href="#">
+               <img src="./img/logo-white.svg" class="logo" alt="">
+
+            </a>
+            <p class="address">Addis Ababa, Ethiopia</p>
+            <ul class="footer-links">
+               <li><a href="#">Terms of Service</a></li>
+               <li><a href="#">Privacy Policy</a></li>
+            </ul>
+         </div>
+      </div>
+   </footer>
+
+   <script>
+
+      var menu = document.getElementById('menu');
+      var nav = document.getElementById('nav');
+      var exit = document.getElementById('exit');
+
+      menu.addEventListener('click', function(e){
+         nav.classList.toggle('hide-mobile');
+         e.preventDefault();
+      })
+      exit.addEventListener('click', function(e){
+         nav.classList.add('hide-mobile')
+         e.preventDefault();
+      }) 
+
+      
+   </script>
+
+</body>
+
+</html>

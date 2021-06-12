@@ -1,0 +1,23 @@
+<svg id="Group_56" data-name="Group 56" xmlns="http://www.w3.org/2000/svg" width="163.12" height="53.303" viewBox="0 0 163.12 53.303">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 26px;
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #20a6d8;
+      }
+
+      .cls-3 {
+        fill: #08d467;
+      }
+    </style>
+  </defs>
+  <text id="_26andfour" data-name="26andfour" class="cls-1" transform="translate(0 46.303)"><tspan x="0" y="0">26andfour</tspan></text>
+  <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-2" width="7.376" height="25.405" rx="3.688" transform="translate(157.904 0) rotate(45)"/>
+  <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-3" width="7.376" height="25.405" rx="3.688" transform="translate(157.802 10.707) rotate(45)"/>
+</svg>
